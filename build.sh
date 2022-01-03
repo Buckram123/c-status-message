@@ -1,0 +1,1 @@
+clang --target=wasm32 -Os -nostdlib -Wl,--export-all -Wl,--no-entry -Wl,--allow-undefined -o contract.wasm src/contract.c
